@@ -1,6 +1,8 @@
 def prime(integer)
-  (2..n/2).none?{|i| n % i == 0}
+  (2..integer/2).none?{|i| n % i == 0}
 end
+
+
 
 def prime? (n)
     if n <= 1
